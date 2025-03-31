@@ -1,4 +1,4 @@
-\
+#I'm not 100% sure on this but I think you'll need a venv to run this, if not i would still recomend instead of just running it in the terminal.
 
 import pyautogui
 import pytesseract
@@ -54,7 +54,7 @@ def capture_and_type():
 
 """ 
 
-
+# This is just to adjust the position of the screenshot to fit for the typing space it won't be needed for the softwares I made this 'bot' for (human benchmark, type racer) but for experimenting with the bot it will be neccessary.
 
 import pyautogui
 
@@ -127,3 +127,6 @@ if question == 'h':
     capture_and_type()
 elif question == 't':
     start_typing_race()
+# finally you'll need to see the output/ terminal for this becuase its activated through print statements.
+
+#Last message if it doesn't work it may be becuase this is like my third time using selenium and my first using pyautogui and pytesseract. If you have any questions ask ChatGpt about it.
